@@ -20,13 +20,13 @@ const HomePage = () => {
       <h1>Data log of Books</h1>
       <ul>
         <li>
-          <Button variant="contained">
-            <a href="/google">Api Google</a>
+          <Button variant="contained" href="/google">
+            Api Google
             <GoogleIcon />
           </Button>
 
-          <Button variant="contained" color="secondary">
-            <a href="/twitter">Api Twitter</a>
+          <Button variant="contained" color="secondary" href="/twitter">
+            Api Twitter
             <TwitterIcon />
           </Button>
         </li>
